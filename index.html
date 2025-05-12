@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>PEX Meteors</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="menuInicial" class="fade-in">
+        <h1>PEX Meteors</h1>
+        <button id="botaoJogar">Jogar</button>
+    </div>
+    <div id="gameContainer" class="fade-out" style="display: none;">
+        <canvas id="meuCanvas" width="800" height="600"></canvas>
+        <div id="botoesFimDeJogo" style="display: none;">
+            <button id="botaoReiniciar">Reiniciar</button>
+            <button id="botaoMenu">Menu Inicial</button>
+        </div>
+    </div>
+    <audio id="musicaFundo" src="e-somjogo.mp3" loop autoplay></audio>
+</body>
+</html>
