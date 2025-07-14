@@ -29,8 +29,8 @@ Criado como extensão de um projeto universitário na disciplina de Algoritmos e
 
 ---
 
-## ✨ Screenshot
-![PEX Meteors Preview](https://github.com/Mateusmelo-C/PEXMeteors-Project-Game/blob/main/PEX%20Meteors%20Preview.gif)
+## ✨ GIF Preview
+🕹️ [PEX Meteors Preview](https://github.com/Mateusmelo-C/PEXMeteors-Project-Game/blob/main/PEX%20Meteors%20Preview.gif)
 
 ---
 
