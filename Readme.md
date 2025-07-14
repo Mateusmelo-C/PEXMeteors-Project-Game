@@ -30,7 +30,7 @@ Criado como extensão de um projeto universitário na disciplina de Algoritmos e
 ---
 
 ## ✨ GIF Preview
-![PEX Meteors Preview](https://raw.githubusercontent.com/mateusmelo-c/PEXMeteors-Project-Game/main/screenshot.png)
+![PEX Meteors Preview](https://github.com/Mateusmelo-C/PEXMeteors-Project-Game/blob/main/PEX%20Meteors%20Preview.gif)
 
 
 ---
