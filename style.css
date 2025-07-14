@@ -1,92 +1,92 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 .centered-flex {
-    display: flex; 
-    flex-direction: column;
-    align-items: center; 
-    justify-content: center;
-    text-align: center;
+  display: flex; 
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  text-align: center;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    color: white;
-    width: 100vw; 
-    height: 100vh; 
-    padding: 50px;
-    background-image: url("fundo-game.png"); 
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-position: center; 
-    overflow: hidden; 
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: white;
+  width: 100vw; 
+  height: 100vh; 
+  padding: 50px;
+  background-image: url("fundo-game.png"); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  overflow: hidden; 
 }
 
 #menuInicial {
-    display: flex; 
-    flex-direction: column; 
-    align-items: center;
-    justify-content: center; 
-    text-align: center; 
-    background-image: url("fundo-menu.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100vw;
-    height: 100vh; 
-    gap: 20px;
-    transition: opacity 0.5s ease-in-out;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center; 
+  text-align: center; 
+  background-image: url("fundo-menu.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh; 
+  gap: 20px;
+  transition: opacity 0.5s ease-in-out;
 }
 
 html, body {
-    margin: 0;
-    padding: 0;
-    overflow: hidden; 
-    width: 100vw;
-    height: 100vh; 
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+  width: 100vw;
+  height: 100vh; 
 }
 
 #botaoJogar {
-    padding: 20px 50px; 
-    background: #f1ea58; 
-    color: black;
-    border: 2px solid #f1ea58; 
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 0.3s, box-shadow 0.3s;
-    font-family: 'Press Start 2P', cursive;
-    font-size: 17px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    margin-top: 40px;
+  padding: 20px 50px; 
+  background: #f1ea58; 
+  color: black;
+  border: 2px solid #f1ea58; 
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s, box-shadow 0.3s;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 17px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin-top: 40px;
 }
 
 #botaoJogar:hover {
-    background-color: #b7bbba; 
-    box-shadow: 0 0 25px #b7bbba;
+  background-color: #b7bbba; 
+  box-shadow: 0 0 25px #b7bbba;
 }
 
 #gameContainer {
-    position: relative; 
-    margin: 20px auto;
-    width: 800px;
-    height: 600px;
-    border: 3px solid #f1ea58;
-    display: none;
+  position: relative; 
+  margin: 20px auto;
+  width: 800px;
+  height: 600px;
+  border: 3px solid #f1ea58;
+  display: none;
 }
 
 #meuCanvas {
-    width: 100%; 
-    height: 100%;
-    background-color: black; 
-    cursor: none;
-    border: 5px solid #f1ea58;
+  width: 100%; 
+  height: 100%;
+  background-color: black; 
+  cursor: none;
+  border: 5px solid #f1ea58;
 }
 
 #botoesFimDeJogo {
@@ -149,23 +149,23 @@ html, body {
 }
 @media (max-width: 600px) {
   #gameContainer {
-    transform: scale(0.7);
-    margin-top: 50px;
+  transform: scale(0.7);
+  margin-top: 50px;
   }
 }
 
 h1 {
-    font-family: 'Press Start 2P', cursive; 
-    font-size: 18px;
-    color: #f1ea58;
-    text-shadow: 2px 2px 0 #000;
-    position: fixed;
-    top: 70px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: black;
-    padding: 10px 20px;
-    border: 2px solid #b7bbba;
-    border-radius: 8px;
-    z-index: 1000;
+  font-family: 'Press Start 2P', cursive; 
+  font-size: 18px;
+  color: #f1ea58;
+  text-shadow: 2px 2px 0 #000;
+  position: fixed;
+  top: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: black;
+  padding: 10px 20px;
+  border: 2px solid #b7bbba;
+  border-radius: 8px;
+  z-index: 1000;
 }

@@ -1,23 +1,38 @@
-🎮 PEX Meteors - Jogo em JavaScript
-PEX Meteors é um jogo desenvolvido como projeto acadêmico para a disciplina de Algoritmos e Linguagens de Programação, no curso de Análise e Desenvolvimento de Sistemas. O objetivo principal é aplicar na prática os conceitos de programação estruturada, manipulação de elementos gráficos via canvas e interação com o DOM utilizando HTML, CSS e JavaScript puros.
+# 🕹️ PEX Meteors – Jogo Arcade em JavaScript
 
-Objetivos do projeto:
-Aplicar estruturas condicionais, laços, funções e manipulação de eventos.
-//Trabalhar com elementos gráficos (<canvas>) e animações 2D.
-//Desenvolver lógica de jogo, detecção de colisões e controle de fases.
-//Criar uma interface interativa e intuitiva para o usuário.
-//Estimular boas práticas de organização de código e comentários.
+PEX Meteors é um jogo arcade 2D inspirado em Space Invaders, desenvolvido do zero com HTML, CSS e JavaScript utilizando a API Canvas. Criado como desafio pessoal após um projeto acadêmico no curso de ADS (USCS), o jogo reforça lógica de programação, manipulação gráfica e estruturação de fases com dificuldade progressiva.  
+Conta com sistema de colisões, efeitos sonoros, pontuação, responsividade e HUD em estilo retrô.
 
-Sobre o jogo:
-No jogo, o jogador controla uma nave espacial que deve destruir meteoros inimigos clicando para disparar projéteis. A cada fase, a dificuldade aumenta com mais inimigos e maior velocidade. O jogador perde ao colidir com um meteoro ou deixar um inimigo passar. O jogo possui:
-//Fundo animado com rolagem contínua.
-//Efeitos sonoros de tiros, explosões e música de fundo.
-//Detecção de colisão entre balas inimigos e o jogador.
-//Sistema de pontuação e fases progressivas.
-//Telas de início, vitória e fim de jogo.
+🔗 [Jogue agora](https://mateusmelo-c.github.io/PEXMeteors-Project-Game/)  
+📦 Código-fonte: [Link para este repositório](https://github.com/Mateusmelo-C/PEXMeteors-Project-Game)
 
-Tecnologias utilizadas:
-//HTML5
-//CSS3
-//JavaScript (sem frameworks)
-//Canvas API
+---
+
+## 📌 Tecnologias Utilizadas
+- HTML5  
+- CSS3  
+- JavaScript Vanilla (Canvas 2D)  
+- Google Fonts  
+- Recursos visuais e sonoros externos (sprites, .mp3)
+
+## 🎮 Funcionalidades
+- Controle da nave via mouse  
+- Tiros e colisões com detecção precisa  
+- Sistema de fases com dificuldade progressiva  
+- Animações e efeitos sonoros  
+- Pontuação dinâmica e HUD  
+- Tela de vitória ou fim de jogo  
+- Menu interativo
+
+## 👨‍💻 Sobre o Projeto
+Criado como extensão de um projeto universitário na disciplina de Algoritmos e Linguagens de Programação. O nome "PEX" faz referência aos Projetos de Extensão (USCS). Desenvolvido do zero como forma de testar conhecimentos adquiridos em aula e explorar lógica e criatividade por meio da programação.
+
+---
+
+## ✨ Screenshot
+*(adicione aqui uma imagem ou gif do jogo rodando)*
+
+---
+
+## 📄 Licença
+Esse projeto está sob a licença MIT. Sinta-se à vontade para usar, modificar e compartilhar!
