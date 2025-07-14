@@ -169,20 +169,20 @@ function drawExplosions() {
 
 function drawScore() {
     ctx.fillStyle = "#b7bbba";
-    ctx.font = "20px Arial";
+    ctx.font = "17px 'Press Start 2P', cursive";
     ctx.fillText("Score: " + score, 20, 30);
 }
 
 function drawStageText() {
     ctx.fillStyle = "white";
-    ctx.font = "30px Arial";
+    ctx.font = "24px 'Press Start 2P', cursive";
     let text = "";
     switch (gameStage) {
         case 0: text = "Fase " + fase; break;
         case 1: text = "Ready?"; break;
-        case 2: text = "Go!"; break;
+        case 2: text = " Go!"; break;
     }
-    ctx.fillText(text, canvas.width / 2 - 50, canvas.height / 2);
+    ctx.fillText(text.toUpperCase(), canvas.width / 2 - 65, canvas.height / 2);
 
     if (stageTimer >= 60) {
         stageTimer = 0;
@@ -205,9 +205,9 @@ function jogar() {
 
 function gameOver(vitoria = false) {
     ctx.fillStyle = "white";
-    ctx.font = "30px Arial";
+    ctx.font = "20px 'Press Start 2P', cursive";
     let texto = vitoria ? "Você venceu!" : "Fim de Jogo!";
-    ctx.fillText(`${texto} Pontuação Final: ${score}`, canvas.width / 2 - 200, canvas.height / 2);
+    ctx.fillText(`${texto.toUpperCase()} Pontuação Final: ${score}`, canvas.width / 2 - 310, canvas.height / 3);
     clearInterval(intervalId);
     somGameOver.currentTime = 0;
     somGameOver.play();

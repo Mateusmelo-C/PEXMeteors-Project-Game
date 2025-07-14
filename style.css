@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); /* Importa a fonte pixelada para o estilo do jogo */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 .centered-flex {
     display: flex; 
@@ -53,17 +53,18 @@ html, body {
 }
 
 #botaoJogar {
-    padding: 15px 40px; 
-    font-size: 24px;
-    font-weight: bold; 
-    font-family: 'Press Start 2P', cursive; 
-    background-color: #f1ea58;
+    padding: 20px 50px; 
+    background: #f1ea58; 
+    color: black;
     border: 2px solid #f1ea58; 
-    border-radius: 10px; 
-    color: black; 
-    cursor: pointer; 
-    box-shadow: 0 0 15px #f1ea58; 
-    transition: all 0.3s ease;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s, box-shadow 0.3s;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 17px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-top: 40px;
 }
 
 #botaoJogar:hover {
@@ -89,49 +90,68 @@ html, body {
 }
 
 #botoesFimDeJogo {
-    position: absolute; 
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    cursor: auto;
+  position: absolute; 
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex; 
+  flex-direction: column; 
+  gap: 15px;
+  z-index: 500;
 }
 
 #botoesFimDeJogo button {
-    padding: 15px 40px;
-    align-items: center;
-    font-size: 24px; 
-    border-radius: 10px;
-    color: white;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    font-family: 'Press Start 2P', cursive;
+  padding: 17px 60px; 
+  font-size: 20px;
+  border-radius: 8px; 
+  cursor: pointer;
 }
 
-#botaoReiniciar {
-    background-color: #b7bbba;
-    border: 2px solid #b7bbba;
-    box-shadow: 0 0 15px #b7bbba;
-    margin-top: 220px;
+#botoesFimDeJogo button {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 16px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+#botaoReiniciar { 
+  background: #b7bbba; 
+  margin-top: 50px;
+  border: 2px solid #b7bbba; 
 }
 
 #botaoReiniciar:hover {
-    background-color: #b7bbba; 
-    box-shadow: 0 0 25px #b7bbba; 
+  background: #33afe2;
+  margin-top: 50px;
+  box-shadow: 0 0 15px #33afe2;
 }
 
-#botaoMenu {
-    background-color: #f1ea58;
-    border: 2px solid #f1ea58;
-    box-shadow: 0 0 15px #f1ea58;
-    margin-top: 20px;
+#botaoMenu     { 
+  background: #f1ea58; 
+  border: 2px solid #f1ea58; 
 }
 
 #botaoMenu:hover {
-    background-color: #f1ea58;
-    box-shadow: 0 0 25px #f1ea58;
+  background: #33afe2;
+  box-shadow: 0 0 15px #33afe2;
+}
+
+#botoesFimDeJogo button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+@media (max-width: 850px) {
+  #gameContainer { transform: scale(0.9); }
+}
+@media (max-width: 720px) {
+  #gameContainer { transform: scale(0.8); }
+}
+@media (max-width: 600px) {
+  #gameContainer {
+    transform: scale(0.7);
+    margin-top: 50px;
+  }
 }
 
 h1 {
